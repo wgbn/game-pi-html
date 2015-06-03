@@ -1,0 +1,46 @@
+.game {
+  background-color: #CCD7C5;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  min-height: 100%;
+  min-width: 100%;
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+
+.game .pontos {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #333;
+    font-size: 4em;
+    text-align: right;
+}
+
+.bola {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  margin: auto;
+  margin-left: 48%;
+  position: absolute;
+}
+
+.bloco {
+    position: absolute;
+    width: 60px;
+    height: 15px;
+    background-color: red;
+    transition: transform .2s;
+}
+
+.over {
+    text-align: center;
+    font-size: 5em;
+    color: #900;
+    display: none;
+}
